@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..700&display=swap');
+
+body {
+    background-color: #E5E5E5;
+}
+
+.signo{
+    position: absolute;
+    left: 15.7%;
+    top:  76.9%; 
+}
+
+.logo{
+    position: absolute;
+    left: 7%;
+    top:  5%;   
+}
+
+.muñeco{
+    z-index: 1;
+    position: absolute;
+    left: 75%;
+    top: 15%;   
+}
+
+.cajaTexto{
+    position: absolute;
+    top:    5%;
+    left:   73.5%;
+    width:  25%;
+    height: 90%;
+    z-index: 0;
+
+    background-color: white;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+    min-width: 200px;
+}
+
+.textInfo{
+    font-family: 'Inter', sans-serif; 
+    position: absolute;
+    text-align: Center;
+    left: 77.3%;
+    top:  52%; 
+
+    font-weight: 100;
+    font-size:   24px;
+    line-height: 35px;
+
+    color: #2f3236;
+    z-index: 2;
+}
+.textInfo2{
+    font-family: 'Inter', sans-serif; 
+    position: absolute;
+    text-align: Center;
+
+    left: 73.5%; 
+    top:  60%; 
+    width: 336px; 
+    height: 48px; 
+    
+    font-weight: 500;
+    line-height: 150%;
+    font-size:   13px;
+
+    color: #6f757b;
+
+    z-index: 2;
+}   
+
+#encriptar{
+    position: absolute;
+    color: white;
+    background-color: #0A3871;
+    left: 15%;
+}
+
+#desencriptar{
+    position: absolute;
+    color:#0A3871;
+    background-color: white;
+    left: 44.5%;
+}
+
+#copiar{
+    position: absolute;
+    color:#0A3871;
+    background-color: white;
+    left: 76%;
+}
+
+button{
+    font-family: 'Inter', sans-serif; 
+    font-size: 20px;
+    width: 21%;
+    height: 9%;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    font-weight: 300;
+    top:80%;
+}
+
+h2{
+    font-family: 'Inter', sans-serif; 
+    font-size: 15px;
+    font-weight: 300;
+    position: absolute;
+    top: 75%;
+    left: 17%;
+    color:gray;
+}
+
+#campoResultado{
+    font-family: 'Inter', sans-serif; 
+    font-size: 25px;
+    color: #0A3871;
+    font-weight: 400;
+
+    position: absolute;
+    top:    12%;
+    left:   75.5%;
+    width:  21%;
+    height: 70%;
+
+    outline: none;
+    border: none;
+    resize: none;
+    z-index: 0;
+}
+
+#campoEscribir{
+    font-family: 'Inter', sans-serif; 
+    font-size: 25px;
+    color: #0A3871;
+    font-weight: 400;
+
+    position: absolute;
+    top:    15%;
+    left:   15%;
+    width:  50%;
+    height: 60%;
+
+    outline: none;
+    border-style: none;
+    resize: none;
+    background-color: #E5E5E5;
+}
+
+@media (max-width:600px){
+    .signo{
+        position: absolute;
+        left: 9%;
+        top:  70%; 
+    }
+
+    .muñeco{
+        display: none;
+    }
+
+    .cajaTexto{
+        position: absolute;
+        top:    105%;
+        left:   10%;
+        width:  75%;
+        height: 40%;
+    }
+
+    .textInfo{
+        position: absolute;
+        font-size: 20px;
+        
+        left: 6%; 
+        top:  115%; 
+        width: 300px; 
+        height: 48px; 
+        line-height: 20px;
+
+        z-index: 2;
+    }
+    .textInfo2{
+        position: absolute;
+        text-align: Center;
+
+        left: -1%; 
+        top:  120%; 
+        width: 300px; 
+        height: 48px; 
+
+        z-index: 2;
+    }   
+
+    #encriptar{
+        position: absolute;
+        color: white;
+        background-color: #0A3871;
+        top: 75%;
+        left: 2%;
+    }
+
+    #desencriptar{
+        position: absolute;
+        color:#0A3871;
+        background-color: white;
+        top: 86%;
+        left: 2%;
+    }
+
+    #copiar{
+        position: absolute;
+        color:#0A3871;
+        background-color: white;
+        top: 130%;
+        left: 12.5%;
+        width: 70%;
+        height: 9%;
+        display: none;
+    }
+
+    button{
+        font-family: 'Inter', sans-serif; 
+        font-size: 20px;
+        width: 90%;
+        height: 9%;
+        border-radius: 24px;
+        border: 1px solid #0A3871;
+        font-weight: 300;
+    }
+
+    h2{
+        font-family: 'Inter', sans-serif; 
+        font-size: 15px;
+        font-weight: 300;
+        position: absolute;
+        top: 68.3%;
+        left: 14%;
+        color:gray;
+    }
+
+    #campoResultado{
+        position: absolute;
+        top:    108%;
+        left:   12%;
+        width:  70%;
+        height: 34%;
+
+        z-index: 0;
+    }
+
+    #campoEscribir{
+        top:    20%;
+        left:   5%;
+        width:  82%;
+        height: 55%;
+
+        font-weight: 500;
+        z-index: -1;
+    }
+}

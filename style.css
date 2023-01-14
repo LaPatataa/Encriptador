@@ -16,7 +16,7 @@ body {
     top:  5%;   
 }
 
-.muñeco{
+.muneco{
     z-index: 1;
     position: absolute;
     left: 75%;
@@ -157,7 +157,7 @@ h2{
         top:  70%; 
     }
 
-    .muñeco{
+    .muneco{
         display: none;
     }
 

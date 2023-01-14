@@ -31,7 +31,7 @@ function escribirEncriptar(){
     var texto = document.getElementById("campoEscribir").value;
     texto = encriptar(texto);
     document.getElementById("campoResultado").value = texto;
-    document.getElementById("muñeco").style.display = "none";
+    document.getElementById("muneco").style.display = "none";
     document.getElementById("textInfo").style.display = "none";
     document.getElementById("textInfo2").style.display = "none";
     document.getElementById("copiar").style.display = "initial";
